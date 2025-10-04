@@ -1,0 +1,33 @@
+.project {
+  color: red;
+}
+
+.project--one {
+  color: red;
+}
+
+.project--two {
+  color: green;
+}
+
+.project--three {
+  color: blue;
+}
+
+.p-backpack__body {
+  display: flex;
+  gap: 2rem;
+}
+
+.p-backpack__backpack {
+  flex: 1;
+}
+
+.backpack__grid {
+  padding: 1rem;
+  display: grid;
+  background: grey;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}

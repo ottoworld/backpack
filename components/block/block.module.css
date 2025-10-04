@@ -1,0 +1,29 @@
+.block {
+  background: black;
+  width: 100%;
+  height: 100%;
+}
+
+.pocket--one {
+  background: red;
+}
+
+.pocket--two {
+  background: green;
+}
+
+.pocket--three {
+  background: blue;
+}
+
+.pocket--four {
+  background: yellow;
+}
+
+.pocket--five {
+  background: purple;
+}
+
+.pocket--six {
+  background: orange;
+}
