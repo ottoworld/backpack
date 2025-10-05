@@ -1,31 +1,31 @@
 import styles from "./block.module.css";
-import clsx from "clsx";
-import { ReactNode, useCallback, useMemo, useState } from "react";
+import { ReactNode, useCallback } from "react";
+import { Project } from "../../app/backpack/page";
 
 export interface PocketComponentProps {
-  cssColor: string;
   children?: ReactNode;
   onClick: (pocketX: number, pocketY: number) => void;
-  pocketX: number;
-  pocketY: number;
+  x: number;
+  y: number;
+  project: Project;
 }
 
 export default function BlockComponent({
   children,
   onClick,
-  cssColor,
-  pocketX,
-  pocketY,
+  x,
+  y,
+  project,
 }: PocketComponentProps) {
   const handleClick = useCallback(() => {
-    onClick(pocketX, pocketY);
-  }, [onClick]);
+    onClick(x, y);
+  }, [onClick, x, y]);
 
   return (
     <button
       className={styles.block}
       onClick={handleClick}
-      style={{ background: cssColor }}
+      style={{ background: project.color }}
     >
       {children}
     </button>

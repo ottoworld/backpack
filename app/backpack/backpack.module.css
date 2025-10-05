@@ -1,3 +1,10 @@
+.p-backpack {
+  margin-inline: auto;
+  /*TODO: more robust solution for restricting backpack height*/
+  max-width: 100vh;
+  padding: 2rem;
+}
+
 .project {
   color: red;
 }
@@ -19,8 +26,12 @@
   gap: 2rem;
 }
 
-.p-backpack__backpack {
+.p-backpack__projects {
   flex: 1;
+}
+
+.p-backpack__backpack {
+  flex: 2;
 }
 
 .backpack__grid {

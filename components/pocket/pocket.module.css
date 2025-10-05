@@ -1,12 +1,11 @@
 .pocket {
   padding: 0.25rem;
   background: white;
-  aspect-ratio: 1 / 1;
-  border-top: none;
   border-color: black;
   border-width: 4px;
   border-style: dashed;
   border-top: none;
+  aspect-ratio: 1;
 }
 
 .pocket--full {
