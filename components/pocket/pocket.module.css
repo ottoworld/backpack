@@ -1,0 +1,36 @@
+.pocket {
+  padding: 0.25rem;
+  background: white;
+  border-color: black;
+  border-width: 4px;
+  border-style: dashed;
+  border-top: none;
+  aspect-ratio: 1;
+}
+
+.pocket--full {
+}
+
+.pocket--one {
+  background: red;
+}
+
+.pocket--two {
+  background: green;
+}
+
+.pocket--three {
+  background: blue;
+}
+
+.pocket--four {
+  background: yellow;
+}
+
+.pocket--five {
+  background: purple;
+}
+
+.pocket--six {
+  background: orange;
+}
